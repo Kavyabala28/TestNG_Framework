@@ -4,6 +4,11 @@ import org.testng.annotations.Test;
 
 public class DependsOnMethodAttribute {
 
+	/*
+	 * dependsOnMethod attribute - specify the name of the parent test method on
+	 * which the test should be dependent.
+	 */
+	
 	@Test
 	public void dog() {
 		System.out.println("Dog");
